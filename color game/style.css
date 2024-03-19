@@ -1,0 +1,49 @@
+body {
+  border: 2px solid black;
+}
+  
+button{
+  border-radius: 25%;
+  
+}
+  .square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: burlywood;
+    margin: 5px;
+    border-radius: 25%;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+  }
+  
+  #message{
+      width: min-content;
+      margin: auto;
+      font-size: x-large;
+  }
+  
+  #stripe{
+      text-align: center;
+      width: max-content;
+      margin: auto;
+  }
+  
+  .selected{
+    background-color: rgb(0, 255, 21);
+  }
+
+.botones {
+  width: min-content;
+  margin: auto;
+}
